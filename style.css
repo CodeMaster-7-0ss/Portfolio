@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background: #0f172a;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    background: #f1f5f9;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Button */
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #16a34a;
+}
+
+/* Features */
+.features {
+    text-align: center;
+    padding: 50px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature-box {
+    width: 250px;
+}
+
+.feature-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background: #e2e8f0;
+}
+
+.about img {
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
